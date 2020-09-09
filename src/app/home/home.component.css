@@ -1,0 +1,261 @@
+.navcal {
+    height: 150px;
+    border: solid red;
+}
+
+.navca2 {
+    height: 10px;
+    background-color: honeydew;
+}
+
+.drop {
+    margin-bottom: 10px;
+    margin-left: 500px;
+}
+
+.bolttext {
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+h5 {
+    color: rgb(2, 0, 0);
+    font-family: serif;
+}
+
+.bolttext1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: 50px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial
+}
+
+.navcol1 {
+    background-color: #FCFCFC;
+    height: 150px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.f {
+    float: left;
+    margin-left: 120px;
+    color: rgb(3, 3, 3);
+    font: 40px;
+}
+
+.f:hover {
+    background-color: rgb(111, 194, 243);
+    height: 30px;
+    border-radius: 10px;
+    width: 90px;
+}
+
+.cardborder {
+    border-radius: 50px;
+    padding-right: 5px;
+    width: 100%;
+}
+
+a {
+    size: 20px;
+}
+
+.photovideo {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(100, 214, 243);
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    color: rgb(255, 253, 253);
+}
+
+div {
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: rgb(73, 197, 228);
+    font: normal;
+}
+
+hr {
+    color: rgb(255, 255, 255);
+}
+
+.col-sm {
+    margin-top: 60px;
+    color: rgba(104, 99, 99, 0.2);
+}
+
+.clotextt {
+    color: rgb(3, 3, 3);
+    margin-right: -40px;
+    font-size: 25px;
+    margin-top: -65px;
+    font-family: serif;
+    font: bold;
+}
+
+.image {
+    margin-top: -50px;
+}
+
+.navebarfont1 {
+    height: 70px;
+    width: 100%;
+    border: solid 2px;
+    background-color: #fff;
+    border-radius: 0px;
+    box-shadow: 8px 0px 20px rgb(167, 165, 165);
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    margin-top: -15px;
+}
+
+.active {
+    margin-top: -45px;
+}
+
+.notice {
+    float: left;
+}
+
+.info:hover {
+    color: red;
+}
+
+.logo img {
+    float: left;
+    width: 350px;
+    height: 120px;
+    margin-left: -37px;
+}
+
+.navbar-toggler {
+    color: red;
+}
+
+.fixcol {
+    background: #190352ea;
+    color: rgb(255, 255, 255);
+    height: 70px;
+}
+
+.card-header1 {
+    background: #000;
+    margin-top: -100px;
+}
+
+.footersection {
+    margin-top: 100px;
+}
+
+.card-footer {
+    margin-top: -10px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.vido {
+    width: 800px;
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 18px;
+}
+
+.carousel-inner {
+    background: red;
+    height: 550px;
+    margin-top: 40px;
+}
+
+.col {
+    text-decoration-color: white;
+}
+
+.col2 {
+    margin-top: -92px;
+    font-size: 16px;
+    color: white;
+}
+
+@import url(‘https://fonts.googleapis.com/css?family=Poppins’);
+#footerfont {
+    font-family: Poppins;
+}
+
+.linkedin {
+    font-size: 16px;
+    margin-left: 9px;
+    color: white;
+}
+
+.footertext {
+    color: #80808F;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    height: 100px;
+}
+
+.floatclass {
+    float: left;
+    width: 700px;
+    border: solid 3px red;
+    margin-left: 150px;
+    /* margin-bottom: -29px; */
+    box-shadow: cornsilk;
+}
+
+.floatright {
+    float: right;
+    border: solid 4px blue;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.info:hover {
+    color: #2196F3;
+}
+
+.logo img {
+    float: left;
+    width: 450px;
+    height: auto;
+    padding-right: 10px;
+}
+
+.topnav a:hover {
+    background-color: #002173;
+    color: orange;
+}
