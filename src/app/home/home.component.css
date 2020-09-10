@@ -13,6 +13,24 @@
     margin-left: 500px;
 }
 
+
+/* social account part css */
+
+.socialaccount {
+    margin-top: -92px;
+    font-size: 20px;
+    color: #212121;
+}
+
+.chatlinkedin {
+    font-size: 20px;
+    margin-left: 9px;
+    color: black;
+}
+
+
+/* close soical account css part */
+
 .bolttext {
     color: rgb(0, 0, 0);
     margin-top: 10px;
@@ -63,10 +81,6 @@ h1 {
     width: 100%;
 }
 
-a {
-    size: 20px;
-}
-
 .photovideo {
     height: 400px;
     width: 100%;
@@ -103,13 +117,13 @@ hr {
     color: rgb(3, 3, 3);
     margin-right: -40px;
     font-size: 25px;
-    margin-top: -65px;
+    margin-top: -54px;
     font-family: serif;
     font: bold;
 }
 
 .image {
-    margin-top: -50px;
+    margin-top: -24px;
 }
 
 .navebarfont1 {
@@ -151,7 +165,9 @@ hr {
 .fixcol {
     background: #190352ea;
     color: rgb(255, 255, 255);
-    height: 70px;
+    height: 30px;
+    border-radius: 10px;
+    width: 90px;
 }
 
 .card-header1 {
@@ -194,11 +210,6 @@ h4 {
     color: white;
 }
 
-@import url(‘https://fonts.googleapis.com/css?family=Poppins’);
-#footerfont {
-    font-family: Poppins;
-}
-
 .linkedin {
     font-size: 16px;
     margin-left: 9px;
@@ -209,24 +220,23 @@ h4 {
     color: #80808F;
 }
 
+
+/* navbar class----------------------------------------- */
+
+a {
+    color: rgb(53, 13, 231);
+}
+
+.navebarcolor {
+    background: rgb(255, 254, 254);
+    width: 100%;
+    box-shadow: 0 14px 28px silver, 0 10px 10px silver;
+}
+
 .topnav {
     overflow: hidden;
     background-color: white;
-    height: 100px;
-}
-
-.floatclass {
-    float: left;
-    width: 700px;
-    border: solid 3px red;
-    margin-left: 150px;
-    /* margin-bottom: -29px; */
-    box-shadow: cornsilk;
-}
-
-.floatright {
-    float: right;
-    border: solid 4px blue;
+    border: solid 2px;
 }
 
 .topnav a {
@@ -235,14 +245,57 @@ h4 {
     color: black;
     text-align: center;
     padding: 20px 20px;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.homebtn {
+    background-color: #002173;
+}
+
+.dropdown a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
     text-decoration: none;
     font-size: 20px;
     margin-top: 0px;
 }
 
+.navebarmargin {
+    margin-left: 24%;
+}
+
+.homebtn {
+    margin: auto;
+}
+
+.navemargin {
+    margin: auto;
+}
+
 .topnav .icon {
     display: none;
 }
+
+.topnav a:hover {
+    background-color: #002173b4;
+    color: orange;
+}
+
+.navedrop {
+    margin-top: 15px;
+}
+
+.btncolor {
+    border: solid 2px blue;
+    background-color: #002173;
+    color: orange;
+}
+
+
+/* colose nave bar class ----------------------------------- */
 
 .info:hover {
     color: #2196F3;
@@ -253,9 +306,4 @@ h4 {
     width: 450px;
     height: auto;
     padding-right: 10px;
-}
-
-.topnav a:hover {
-    background-color: #002173;
-    color: orange;
 }
